@@ -1,0 +1,306 @@
+.topnav {
+  background-color: #262626;
+  height: 3.5rem;
+}
+.topnav img {
+  margin-top: 0.8rem;
+}
+.topnav button {
+  color: white;
+  background-color: #80b44e;
+  border-radius: 5%;
+  border: none;
+  width: 6rem;
+  height: 2rem;
+  margin-top: 0.8rem;
+  margin-right: 1rem;
+  float: right;
+}
+.topnav button:hover {
+  background-color: #75a845;
+}
+.maindiv {
+  margin: auto;
+  display: block;
+  width: 84%;
+}
+.navicon {
+  font-size: 2rem;
+  color: #fc7236;
+}
+.maindiv span {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #383838;
+}
+.maindiv hr {
+  color: rgb(0, 174, 255);
+  height: 0.1rem;
+}
+.dropbtn {
+  color: rgb(17, 91, 177);
+  padding: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  transition: all 0.5s ease-in;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  width: 13rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 0rem 1rem 1rem 1rem;
+}
+
+.dropdown-content a {
+  color: rgb(17, 91, 177);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: #fc7236;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  transition: all 0.3s ease-in;
+}
+
+.dropdown:hover .dropbtn {
+  color: #fc7236;
+  transition: all 0.1s ease-in;
+}
+.icons i {
+  color: #fc7236;
+  padding: 0.05em 0.07em;
+  font-size: x-large;
+}
+.icons {
+  float: right;
+  margin: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.img1 {
+  border-radius: 50%;
+  float: left;
+  width: 50%;
+  margin-top: 2.5rem;
+}
+.img3 {
+  border-radius: 50%;
+  float: right;
+  width: 20%;
+}
+.img2 {
+  border-radius: 50%;
+  float: left;
+  width: 15%;
+  margin-left: 14rem;
+  margin-top: 5rem;
+}
+.img4 {
+  border-radius: 50%;
+  float: right;
+  width: 10%;
+  margin-right: 9rem;
+  margin-top: 3rem;
+}
+.search {
+  margin-top: 1rem;
+  width: 5rem;
+  /* float: left; */
+  border-color: rgb(153, 199, 252);
+  border-radius: 2rem;
+  width: 33rem;
+  height: 4rem;
+  font-size: large;
+}
+
+.search:hover {
+  border-color: #fc7236;
+}
+
+.card1 {
+  text-align: center;
+  width: 30%;
+  margin: 0.5rem;
+  float: left;
+  padding: 2rem;
+  border-radius: 13%;
+  box-shadow: 0px 8px 16px 0px rgba(32, 34, 34, 0.3);
+  margin-top: 5rem;
+  border: 1px black;
+  transition: all 0.7s ease;
+}
+.card1:hover {
+  box-shadow: 0px 8px 16px 0px rgba(5, 102, 167, 0.4);
+}
+.card1 img {
+  margin: auto;
+  display: block;
+}
+.card2 {
+  width: 30%;
+  margin: 0.5rem;
+  float: left;
+  transition: all 0.7s ease;
+  padding: 2rem;
+  border-radius: 13%;
+  text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(32, 34, 34, 0.3);
+}
+.card2:hover {
+  box-shadow: 0px 8px 16px 0px rgba(10, 164, 202, 0.4);
+}
+.card2 img {
+  margin: auto;
+  display: block;
+
+  border-radius: 50%;
+  width: 40%;
+}
+.card2 button {
+  border-color: #fc7236;
+  border-radius: 1rem;
+  background-color: white;
+  margin: auto;
+  display: block;
+  color: #fc7236;
+  font-weight: bold;
+  height: 2.7rem;
+  width: 10rem;
+}
+.card2 button:hover {
+  color: white;
+  background-color: #fc7236;
+}
+.gal3 {
+  width: 55%;
+  border-radius: 5%;
+  float: left;
+}
+.gal2 {
+  width: 24%;
+  margin-left: 2.5rem;
+  margin-top: 9rem;
+}
+.gal1 {
+  width: 35%;
+  margin-left: 2.5rem;
+  margin-top: 2rem;
+  border-radius: 7%;
+}
+.upcomingdiv {
+  box-shadow: 0rem 0.2rem 0.2rem 0.2rem rgba(67, 182, 211, 0.1);
+  padding: 2rem;
+  width: 84%;
+  height: 13rem;
+  border-radius: 1rem;
+  transition: all 0.7s ease;
+}
+.upcomingdiv:hover {
+  box-shadow: 0rem 0.2rem 0.2rem 0.2rem rgba(67, 182, 211, 0.2);
+}
+.hov {
+  font-weight: bold;
+  font-size: x-large;
+  color: rgb(92, 91, 91);
+}
+.hov:hover {
+  color: #fc7236;
+}
+.classcard {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.classcard div {
+  width: 31%;
+  margin-right: 2%;
+  box-shadow: 0rem 0.2rem 0.2rem 0.2rem rgba(67, 182, 211, 0.2);
+  border-radius: 5%;
+  display: inline-block;
+  transition: all 1s ease;
+  font-size: 0.8rem;
+}
+.classcard div img {
+  border-radius: 5% 5% 0% 0%;
+  width: 100%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+.classcard div:hover {
+  box-shadow: 0rem 0.3rem 0.3rem 0.3rem rgba(67, 182, 211, 0.4);
+}
+.classcard div hr {
+  margin-top: 0%;
+  padding: 0%;
+  color: #fa4c01;
+  height: 0.5rem;
+}
+.classcard div i {
+  font-size: 1rem;
+  color: #fa4c01;
+  padding-bottom: 1rem;
+}
+.classcard div span {
+  font-size: 1rem;
+  font-weight: lighter;
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+.classcard h3 {
+  font-weight: bold;
+  transition: all 0.6s ease;
+}
+.classcard h3:hover {
+  color: #fc7236;
+}
+.teachercard {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.teachercard div {
+  display: inline-block;
+  width: 23%;
+  margin-right: 2%;
+  border-radius: 5%;
+}
+.teachercard img {
+  border-radius: 5%;
+}
+.contact {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+.contact i {
+  font-size: 1.3rem;
+  padding-right: 0.5rem;
+  font-weight: bolder;
+}
+.contact span {
+  font-size: 0.8rem;
+  font-weight: lighter;
+  padding-left: 2rem;
+}
+.contact a {
+  text-decoration: none;
+  color: rgb(0, 132, 255);
+  font-weight: normal;
+}
+.contact h2 {
+  margin-bottom: 2rem;
+}
+.footer {
+  display: inline-block;
+}
